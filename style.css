@@ -1,0 +1,70 @@
+@media screen and (max-width:500px) 
+{
+    body {
+        color: #847d3d;
+        background-color: rgb(242, 242, 242);
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+p {
+    font-size: large;
+}
+table {
+    width: 100%;
+}
+
+.left-column,
+.center-column,
+.right-column {
+    vertical-align: top;
+    width: 33%;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.detail img {
+    border-radius: 50%;
+    height: 200px;
+    width: 215px;
+    margin-right: 10px; /* Adjust this value for the desired space */
+}
+.contact {
+    color: aliceblue;
+    padding: 5px; /* Adjust this value for the desired spacing */
+    margin-bottom: 10px; /* Adjust this value for the desired spacing */
+}
+
+.contact h1 {
+    margin-bottom: 10px; /* Adjust this value for the desired spacing */
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Change to 'block' if you want items on separate lines */
+    
+}
+
+.contact li {
+    display: inline;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    margin-right: 10px; /* Adjust this value for the desired spacing between items */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    vertical-align: top;
+
+
+  }
+  .grid-item {
+
+    vertical-align: top;
+
+  }
